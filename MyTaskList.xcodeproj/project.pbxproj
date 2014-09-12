@@ -14,6 +14,7 @@
 		DD58D30619C3525300621EB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD58D30519C3525300621EB4 /* Images.xcassets */; };
 		DD58D30919C3525300621EB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD58D30719C3525300621EB4 /* LaunchScreen.xib */; };
 		DD58D31519C3525300621EB4 /* MyTaskListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58D31419C3525300621EB4 /* MyTaskListTests.swift */; };
+		DD58D32119C353E500621EB4 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58D32019C353E500621EB4 /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		DD58D30E19C3525300621EB4 /* MyTaskListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTaskListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD58D31319C3525300621EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD58D31419C3525300621EB4 /* MyTaskListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTaskListTests.swift; sourceTree = "<group>"; };
+		DD58D32019C353E500621EB4 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				DD58D30519C3525300621EB4 /* Images.xcassets */,
 				DD58D30719C3525300621EB4 /* LaunchScreen.xib */,
 				DD58D2FA19C3525300621EB4 /* Supporting Files */,
+				DD58D32019C353E500621EB4 /* TaskManager.swift */,
 			);
 			path = MyTaskList;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				DD58D30119C3525300621EB4 /* SecondViewController.swift in Sources */,
 				DD58D2FD19C3525300621EB4 /* AppDelegate.swift in Sources */,
+				DD58D32119C353E500621EB4 /* TaskManager.swift in Sources */,
 				DD58D2FF19C3525300621EB4 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
